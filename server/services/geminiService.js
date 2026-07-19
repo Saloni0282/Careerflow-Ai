@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const DEFAULT_MODEL = 'gemini-2.5-flash';
+const DEFAULT_MODEL = 'gemini-2.0-flash-lite-001';
 const GEMINI_BASE_URL = 'https://generativelanguage.googleapis.com/v1beta/models';
 
 const buildCoverLetterPrompt = ({ resumeText, jobDescription }) => `
