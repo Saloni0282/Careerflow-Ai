@@ -1,0 +1,151 @@
+.page {
+  width: min(1120px, 96%);
+  margin: 0 auto;
+  padding: 28px 0 42px;
+}
+
+.hero {
+  padding: 36px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: var(--shadow-card);
+}
+
+.eyebrow {
+  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  max-width: 820px;
+  margin-top: 8px;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.hero p:last-child {
+  max-width: 780px;
+  margin-top: 16px;
+  color: var(--muted);
+}
+
+.contentGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.section,
+.featureBand {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: 0 12px 34px rgba(15, 23, 42, 0.06);
+}
+
+.section {
+  padding: 24px;
+}
+
+.section h2,
+.featureBand h2 {
+  font-size: 1.25rem;
+}
+
+.section p,
+.featureBand p,
+.footer p {
+  margin-top: 12px;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.featureBand {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(240px, 0.7fr);
+  gap: 24px;
+  margin-top: 22px;
+  padding: 28px;
+}
+
+.stackList {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  gap: 10px;
+}
+
+.stackList span {
+  padding: 8px 11px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-alt);
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.footer {
+  margin-top: 34px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+
+.footerTop {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(220px, 0.5fr);
+  gap: 24px;
+}
+
+.footerLinks {
+  display: grid;
+  gap: 10px;
+}
+
+.footerLinks a,
+.footerBottom a {
+  color: var(--text);
+  font-weight: 750;
+  transition: color 150ms ease;
+}
+
+.footerLinks a:hover,
+.footerBottom a:hover {
+  color: var(--primary);
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+@media (max-width: 900px) {
+  .contentGrid,
+  .featureBand,
+  .footerTop {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero,
+  .section,
+  .featureBand {
+    padding: 22px;
+    border-radius: 14px;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+  }
+}

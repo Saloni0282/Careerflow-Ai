@@ -1,0 +1,2 @@
+.skel{ height:90px; border-radius:12px; background: linear-gradient(90deg, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.02) 50%, rgba(0,0,0,0.04) 100%); margin-bottom:12px; animation: shimmer 1.2s linear infinite; }
+@keyframes shimmer{ 0%{ background-position:-200px 0;} 100%{ background-position:200px 0;} }

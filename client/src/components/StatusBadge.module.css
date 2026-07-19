@@ -1,0 +1,46 @@
+.badge {
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.applied {
+  background: #eef2ff;
+  color: #3730a3;
+}
+
+.scheduled {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.interviewing {
+  background: #fff7ed;
+  color: #92400e;
+}
+
+.rejected {
+  background: #fff1f2;
+  color: #9f1239;
+}
+
+.offer {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+.joined {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+.withdrawn {
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+.default {
+  background: var(--surface-alt);
+  color: var(--text);
+}

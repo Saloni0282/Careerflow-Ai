@@ -1,0 +1,12 @@
+.page {
+  text-align: center;
+  min-height: calc(100vh - 100px);
+  display: grid;
+  place-items: center;
+  gap: 16px;
+}
+
+.page a {
+  color: var(--primary);
+  text-decoration: none;
+}

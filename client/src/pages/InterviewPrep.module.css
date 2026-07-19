@@ -1,0 +1,281 @@
+.page {
+      padding: 24px;
+}
+
+.header h1 {
+      margin: 0 0 8px 0;
+}
+
+.form {
+      max-width: 900px;
+      margin-top: 16px;
+      display: grid;
+      gap: 12px;
+}
+
+.form label {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+}
+
+.row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+}
+
+.actions {
+      margin-top: 8px;
+}
+
+.error {
+      color: #b00020;
+}
+
+.results {
+      margin-top: 24px;
+      display: grid;
+      gap: 20px;
+}
+
+.resultHeaderTop {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      padding: 16px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+}
+
+.metaLabel {
+      margin: 0 0 6px 0;
+      color: #6b7280;
+      font-size: 0.95rem;
+}
+
+.sectionBlock {
+      padding: 16px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+}
+
+.tagList {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+}
+
+.tag {
+      background: #eef2ff;
+      color: #4338ca;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+}
+
+.cards {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+}
+
+.card {
+      border: 1px solid #e0e0e0;
+      padding: 16px;
+      border-radius: 10px;
+      background: #fff;
+      width: 100%;
+}
+
+.q {
+      font-weight: 600;
+      margin-bottom: 8px;
+}
+
+.a {
+      color: #333;
+      margin-top: 12px;
+      line-height: 1.6;
+}
+
+.summary {
+      margin-top: 12px;
+}
+
+.cardHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+}
+
+.cardActions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+}
+
+.copyButton {
+      background: #f3f4f6;
+      border: 1px solid #d1d5db;
+      padding: 6px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+}
+
+.toggleButton {
+      background: transparent;
+      border: none;
+      color: #2563eb;
+      cursor: pointer;
+      font-weight: 600;
+}
+
+.controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+}
+
+.copyAllButton {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+}
+
+.copiedBadge {
+      margin-left: 8px;
+      color: green;
+      font-weight: 600;
+}
+
+.badge {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0c4a6e;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      margin-bottom: 8px;
+}
+
+.cardActions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+}
+
+.copyButton {
+      background: #f3f4f6;
+      border: 1px solid #d1d5db;
+      padding: 6px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+}
+
+.toggleButton {
+      background: transparent;
+      border: none;
+      color: #2563eb;
+      cursor: pointer;
+}
+
+.controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+}
+
+.copyAllButton {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+}
+
+.copiedBadge {
+      margin-left: 8px;
+      color: green;
+      font-weight: 600;
+}
+
+.page {
+      width: min(1040px, 94%);
+      margin: 0 auto;
+      padding: 34px 0 72px;
+}
+
+.hero {
+      display: grid;
+      gap: 16px;
+      padding: 28px 32px;
+      border-radius: 24px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+}
+
+.eyebrow {
+      color: var(--primary);
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+}
+
+.hero h1 {
+      font-size: clamp(1.95rem, 2.4vw, 2.7rem);
+      line-height: 1.04;
+}
+
+.hero p {
+      max-width: 760px;
+      color: var(--muted);
+      line-height: 1.7;
+}
+
+.previewCard {
+      margin-top: 26px;
+      padding: 26px 30px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.07);
+}
+
+.previewCard h2 {
+      margin-bottom: 14px;
+}
+
+.previewCard p {
+      color: var(--muted);
+      line-height: 1.75;
+}
+
+.previewCard ul {
+      margin-top: 20px;
+      padding-left: 20px;
+      color: var(--text);
+      line-height: 1.8;
+}
+
+@media (max-width: 720px) {
+      .page {
+            padding: 22px 0 46px;
+      }
+
+      .hero,
+      .previewCard {
+            padding: 22px;
+      }
+}

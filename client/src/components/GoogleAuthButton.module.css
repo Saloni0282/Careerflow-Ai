@@ -1,0 +1,21 @@
+.googleShell {
+  display: flex;
+  justify-content: center;
+  min-height: 44px;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+.googleButton {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 750;
+  cursor: not-allowed;
+}
